@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+secenv/
+.env/
+.venv/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+# Log files in logs directory and subdirectories
+src/logs/*.txt
+src/logs/**/*.txt
+src/hackrf/*.txt
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Project specific
+# Keep src/ and docs/ directories
+!src/
+!docs/
+
+# Zone.Identifier files
+*:Zone.Identifier
+
+# Specific untracked directories
+app_mockups/
+gr-power/
+mockups/
+openxc-vehicle-simulator/
+sdr_prefix/
+vi-firmware/
