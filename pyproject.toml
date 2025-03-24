@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rf_signal_monitor"
-version = "0.2.4"
+version = "0.3.0"
 description = "RF Signal Monitor for automotive security and vehicle signal analysis"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -41,15 +41,12 @@ sdr = [
 "Bug Tracker" = "https://github.com/jondmarien/automotive-security-poc/issues"
 
 [project.scripts]
-rf-signal-monitor = "main_application:main"
-
-[tool.setuptools]
-package-dir = {"" = "src"}
-
+rf-signal-monitor = "rf_signal_monitor.cli:main"
+   
 [tool.setuptools.packages.find]
 where = ["src"]
 exclude = ["*__pycache__*", "*.log*", "*.txt"]
-
+   
 [tool.setuptools.package-data]
 rf_signal_monitor = ["*.json", "*.yaml", "*.yml"]
 
