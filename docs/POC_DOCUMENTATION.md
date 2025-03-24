@@ -1,8 +1,4 @@
 
-| Title             | Author                       | Created        | Published      | Tags                                             |
-| ----------------- | ---------------------------- | -------------- | -------------- | ------------------------------------------------ |
-| POC_DOCUMENTATION | <ul><li>Jon Marien</li></ul> | March 23, 2025 | March 23, 2025 | [[#classes\|#classes]], [[#capstone\|#capstone]] |
-
 # Automotive Security POC - RF Signal Monitor
 
 ## Project Overview
