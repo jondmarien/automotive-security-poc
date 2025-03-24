@@ -41,7 +41,7 @@ sdr = [
 "Bug Tracker" = "https://github.com/jondmarien/automotive-security-poc/issues"
 
 [project.scripts]
-rf-signal-monitor = "src.main_application:main"
+rf-signal-monitor = "main_application:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
