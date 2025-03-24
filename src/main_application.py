@@ -65,6 +65,14 @@ class AutoSecurityPOC:
                 self.console.print("[bold red]Exiting application...[/bold red]")
                 break
 
+def main():
+    """
+    Main entry point for the application.
+    Creates an instance of AutoSecurityPOC and calls its run() method.
+    """
+    app = AutoSecurityPOC()
+    app.run()
+
 if __name__ == "__main__":
     app = AutoSecurityPOC()
     app.run()

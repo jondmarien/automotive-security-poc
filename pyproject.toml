@@ -38,15 +38,13 @@ dependencies = [
 "Bug Tracker" = "https://github.com/jondmarien/automotive-security-poc/issues"
 
 [project.scripts]
-rf-signal-monitor = "rf_signal_monitor.main_application:main"
+rf-signal-monitor = "main_application:main"
 
 [tool.setuptools]
-package-dir = {"rf_signal_monitor" = "src"}
-packages = ["rf_signal_monitor"]
+package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["rf_signal_monitor*"]
 exclude = ["*__pycache__*", "*.log*", "*.txt"]
 
 [tool.setuptools.package-data]
