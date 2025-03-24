@@ -58,7 +58,7 @@ coverage.xml
 *:Zone.Identifier
 
 # Specific untracked directories
-app_mockups/
+# app_mockups/
 gr-power/
 mockups/
 openxc-vehicle-simulator/
