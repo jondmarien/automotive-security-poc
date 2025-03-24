@@ -25,7 +25,6 @@ classifiers = [
 dependencies = [
     "pyserial>=3.5",
     "rich>=12.0.0",
-    "gnuradio>=3.8.0",
     "matplotlib>=3.5.0",
     "numpy>=1.22.0",
     "pandas>=1.4.0",
@@ -33,6 +32,10 @@ dependencies = [
     "requests>=2.27.0",
 ]
 
+[project.optional-dependencies]
+sdr = [
+    "gnuradio>=3.8.0",
+]
 [project.urls]
 "Homepage" = "https://github.com/jondmarien/automotive-security-poc"
 "Bug Tracker" = "https://github.com/jondmarien/automotive-security-poc/issues"
