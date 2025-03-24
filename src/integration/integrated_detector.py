@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 
-import os
 import time
 import argparse
 import threading
-import subprocess
 import random
 from rich.console import Console
 from rich.table import Table
@@ -13,11 +11,9 @@ from rich.panel import Panel
 from rich.live import Live
 from datetime import datetime
 
-# Import our custom modules
-import sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-from src.openxc.rf_simulator import RFDetector as OpenXCRFDetector
-from src.hackrf.rf_detector import RFDetector as HackRFDetector
+# Use absolute imports instead of relative imports
+from openxc.rf_simulator import RFDetector as OpenXCRFDetector
+from hackrf.rf_detector import RFDetector as HackRFDetector
 
 class IntegratedRFDetector:
     def __init__(self, threshold=-60):

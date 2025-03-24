@@ -8,8 +8,7 @@ import threading
 from rich.console import Console
 from rich.prompt import Prompt
 
-# Import our custom modules
-sys.path.append(os.path.join(os.path.dirname(__file__), '.'))
+# Use absolute imports instead of relative imports
 from integration.integrated_detector import IntegratedRFDetector
 from dashboard import RFDashboard, simulate_dashboard
 

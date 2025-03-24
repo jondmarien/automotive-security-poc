@@ -451,4 +451,3 @@ def simulate_dashboard(duration=60, attack_probability=0.1):
 if __name__ == "__main__":
     # Run standalone simulation for 60 seconds with 10% attack probability
     simulate_dashboard(60, 0.1)
-
