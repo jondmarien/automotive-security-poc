@@ -25,7 +25,7 @@ The Automotive Security Proof of Concept (POC) is a monitoring system designed t
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/automotive-security-poc.git
+   git clone https://github.com/jondmarien/automotive-security-poc.git
    cd automotive-security-poc
    ```
 
@@ -98,7 +98,9 @@ Planned enhancements include:
 
 ## License
 
-[Insert your chosen license here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The MIT License is a permissive license that allows reuse of the code while requiring attribution to the original author. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, provided that you include the original copyright notice and permission notice in all copies or substantial portions of the software.
 
 ---
 
